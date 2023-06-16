@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>
+        "I am not in danger, Skyler. I am the danger."
+        <br>
+        <br>
+        Walter White
+    </h1>
+    <audio src="sons/bbsoundtrack.mp3" id="sound" loop autoplay></audio>
+    <button onclick="handlePlay()">Clique aqui para a experiência ser ainda melhor</button>
+    <script>
+        const audio = document.getElementById('sound');
+        function handlePlay() {
+            audio.play();
+        }
+    </script>
+</body>
+
+</html>
